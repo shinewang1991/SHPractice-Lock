@@ -8,8 +8,10 @@
 
 #include <stdio.h>
 #include "pthread_mutex_demo.h"
+#include "pthread_rwlock_demo.h"
 
 int main(int argc, const char * argv[]) {
-    mutexDemo();
+//    mutexDemo();
+    rwlockDemo();
     return 0;
 }
