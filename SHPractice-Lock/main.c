@@ -7,9 +7,9 @@
 //
 
 #include <stdio.h>
+#include "pthread_mutex_demo.h"
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
+    mutexDemo();
     return 0;
 }
